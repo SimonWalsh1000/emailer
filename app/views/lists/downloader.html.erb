@@ -1,0 +1,6 @@
+<h2>Download lists<br/><small>(Currently <%= @list_count %> lists in the database)</small></h2>
+
+<p>
+  Download file:
+  <%= link_to "CSV", excel_lists_path(format: "csv") %>
+</p>
